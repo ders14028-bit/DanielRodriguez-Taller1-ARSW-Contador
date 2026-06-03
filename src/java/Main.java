@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 
         int limite = 1000000;
-        int numHilos = 100;
+        int numHilos = 500000;
 
         int bloque = limite / numHilos;
 
