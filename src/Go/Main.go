@@ -17,7 +17,7 @@ func counter(inicio, fin int64, wg *sync.WaitGroup) {
 func main() {
 
 	var limite int64 = 1000000
-	numHilos := 100000
+	numHilos := 500000
 
 	bloque := limite / int64(numHilos)
 
